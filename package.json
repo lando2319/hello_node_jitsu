@@ -1,0 +1,13 @@
+{
+  "name": "mike",
+  "version": "0.0.0",
+  "description": "this is my first",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.6.1",
+    "mysql": "^2.4.0",
+    "body-parser": "^1.4.3"
+  }
+}
