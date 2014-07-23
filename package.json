@@ -1,6 +1,6 @@
 {
   "name": "mike",
-  "version": "0.0.0",
+  "version": "0.0.0-4",
   "description": "this is my first",
   "main": "index.js",
   "author": "",
@@ -9,5 +9,12 @@
     "express": "^4.6.1",
     "mysql": "^2.4.0",
     "body-parser": "^1.4.3"
+  },
+  "subdomain": "lando2319-server",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }

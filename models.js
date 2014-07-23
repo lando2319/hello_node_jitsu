@@ -6,10 +6,10 @@ module.exports = function(){
 	// Init mysql connection
 	obj.connectMysql = function(name){
 		connection = mysql.createConnection({
-		  host     : 'localhost',
-		  user     : 'root',
-		  password : '',
-		  database: 'mike'
+		  host     : 'box357.bluehost.com',
+		  user     : 'freelis1_node',
+		  password : 'nodenode22',
+		  database: 'freelis1_node_testing'
 		});
 	}
 
