@@ -1,3 +1,4 @@
+var db_config = require('./db_config')
 module.exports = function(){
 	var obj = {};
 	var mysql      = require('mysql');
@@ -6,10 +7,10 @@ module.exports = function(){
 	// Init mysql connection
 	obj.connectMysql = function(name){
 		connection = mysql.createConnection({
-		  host     : 'box357.bluehost.com',
-		  user     : 'freelis1_node',
-		  password : 'nodenode22',
-		  database: 'freelis1_node_testing'
+		  host     : db_config.host,
+		  user     : db_config.user,
+		  password : db_config.password,
+		  database: db_config.database
 		});
 	}
 
